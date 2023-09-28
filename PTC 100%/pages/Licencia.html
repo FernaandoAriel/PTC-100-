@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LUSO - Licencia</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="../css/licencia.css">
+  <link rel="stylesheet" href="animations.css">
+  <link rel="icon" href="../img/Logo rojo.png">
+  <link rel="stylesheet" href="../css/nav.css">
+  <script src="../js/navPages.js" defer></script>
+</head>
+<body>
+  <!--BARRA DE NAVEGACIÓN-->
+  <div id="navContainer"></div>
+  
+  <!--CONTENIDO-->
+  <br style="background-color: #f2f2f2">
+  <section style="background-color: #f2f2f2">
+    <div class="container py-5 justify-content-center" >
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6 col-xl-4">
+                <div class="card" style="border-radius: 15px; font-size: 1.25rem;">
+                    <div class="bg-image hover-overlay ripple ripple-surface ripple-surface-light"
+                        data-mdb-ripple-color="light">
+                        <img src="../img/Img-10.jpg"
+                            style="border-top-left-radius: 15px; border-top-right-radius: 15px;" class="img-fluid"
+                            alt="Licencia de Software" />
+                        <a href="#!">
+                            <div class="mask"></div>
+                        </a>
+                    </div>
+                    <div class="card-body pb-0">
+                        <div class="mb-2">
+                            <h5 class="card-title">Selecciona una licencia:</h5>
+                            <select class="form-select" id="selectorLicencia">
+                                <option value="ninguno">Selecciona una Opción</option>
+                                <option value="sencilla" id="opcionSencilla">Licencia Sencilla</option>
+                                <option value="premium" id="opcionPremium">Licencia Premium</option>
+                                <option value="empresa" id="opcionEmpresa">Licencia de Empresa</option>
+                            </select>
+                            <p class="card-text mt-3">Descripción: <span id="descripcion">Debes seleccionar un tipo de licencia
+                                    para observar la descripción
+                                </span></p>
+                        </div>
+                    </div>
+                    <hr class="my-0" />
+                    <div class="card-body pb-0 mb-3">
+                        <div class="d-flex justify-content-between text-white">
+                            <p class="card-text">Subtotal: <span class="text-white small" id="precio" >$</span></p>
+                            
+                        </div>
+                    </div>
+                    <hr class="my-0" />
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center pb-2 mb-1"></a>
+                            <button type="button" class="btn btn-danger btn-lg" id="comprarBtn" >Comprar ahora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!--FOOTER-->
+  <div id="footerContainer"></div>
+
+  <script src="../js/licencia.js"></script>
+  <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/loadPages.js"></script>
+</body>
+</html>

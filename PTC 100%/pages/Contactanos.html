@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LUSO - Contactanos</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/contactanos.css">
+  <link rel="icon" href="../img/Logo rojo.png">
+  <link rel="stylesheet" href="../css/nav.css">
+  <script src="../js/navPages.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</head>
+<body>
+  <!--BARRA DE NAVEGACIÓN-->
+  <div id="navContainer"></div>
+  
+  <!--CONTENIDO-->
+  <div class="entrada text-center">
+    <br>
+    <h1 class="wow animate__animated animate__slideInRight">Contactanos</h1>
+    <p class="lead wow animate__animated animate__fadeIn">¿Tienes alguna pregunta? Nos gustaría escuchar de ti.</p>
+    <br>
+</div>
+
+<br>
+<br>
+
+<div class="container">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
+            <div class="prensa">
+                <h3 class="wow animate__animated animate__slideInRight"><u><b>Manual de Usuraio</b></u></h3>
+                <p class="lead wow animate__animated animate__fadeIn">Una guia sobre todo lo que encontrará en nuestro programa.</p>
+                <button type="button" class="press-btn" id="manualUsuarioBtn">Descargar</button>
+                <a href="F:\PTC\PTC 100%\Manual de Usuario.docx" id="manualUsuarioLink" download="Manual_de_Usuario"></a>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
+            <div class="info">
+                <h3 class="wow animate__animated animate__slideInRight"><u><b>Información de contacto</b></u></h3>
+                <p class="lead wow animate__animated animate__fadeIn">Avenida Aguilares 218
+                    San Salvador CP,
+                    San Salvador 1101 <br>
+                    +503 7456 3890 <br>
+                    contactoyservicio@luso.com </p>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-4">
+            <div class="help">
+                <h3 class="wow animate__animated animate__slideInRight"><u><b>Manual Técnico</b></u></h3>
+                <p class="lead wow animate__animated animate__fadeIn">Una guía con la información que necesites en la parte técnica</p>
+                <button type="button" class="press-btn" id="manualTecnicoBtn">Descargar</button>
+                <a href="F:\PTC\PTC 100%\Manual Tecnico.docx" id="manualTecnicoLink" download="Manual_Tecnico"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="formCU wow animate__animated animate__fadeIn">
+  <h2 class="wow animate__animated animate__slideInRight">Formulario de Contacto</h2>
+  <form id="formularioContacto">
+    <div class="mb-3">
+      <label for="nombre" class="form-label">Nombre</label>
+      <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" required>
+    </div>
+    <div class="mb-3">
+      <label for="correo" class="form-label">Correo Electrónico</label>
+      <input type="email" class="form-control" id="correo" placeholder="nombre@ejemplo.com" required>
+    </div>
+    <div class="mb-3">
+      <label for="mensaje" class="form-label">Mensaje</label>
+      <textarea class="form-control" id="mensaje" rows="5" placeholder="Ingrese su mensaje" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary custom-btn" id="enviarBtn">Enviar</button>
+  </form>
+  <br>
+</div>
+
+<br>
+
+  <!--FOOTER-->
+  <div id="footerContainer"></div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+  <script src="../js/loadPages.js"></script>
+  <script src="../js/contactanos.js"></script>
+</body>
+</html>

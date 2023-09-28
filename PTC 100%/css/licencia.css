@@ -1,0 +1,70 @@
+*{
+  font-family: Tahoma, Arial, sans-serif;
+}
+.card {
+    background-color: #c41e3d;
+
+    color: rgb(242,242,242);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.container {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.text-container {
+    overflow: hidden;
+}
+
+.fade-slide {
+    opacity: 0;
+    transform: translateX(100%);
+    animation: fadeSlide 1s forwards;
+}
+
+@keyframes fadeSlide {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Estilos para pantallas pequeñas (hasta 767px de ancho) */
+@media (max-width: 767px) {
+    /* Estilos para el contenedor principal */
+    section {
+      padding: 20px; /* Ajusta el espacio interior del contenedor */
+    }
+  
+    /* Estilos para la imagen */
+    .bg-image img {
+      border-radius: 0; /* Elimina la curvatura de las esquinas de la imagen */
+    }
+  
+    /* Estilos para el título */
+    .card-title {
+      font-size: 1rem; /* Reduce el tamaño del título */
+    }
+  }
+  
+  /* Estilos para pantallas medianas (768px a 991px de ancho) */
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Agrega estilos específicos para pantallas medianas aquí */
+  }
+  
+  /* Estilos para pantallas grandes (más de 991px de ancho) */
+  @media (min-width: 992px) {
+    /* Agrega estilos específicos para pantallas grandes aquí */
+  }

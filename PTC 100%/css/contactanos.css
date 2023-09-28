@@ -1,0 +1,228 @@
+*{
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  gap: 200px;
+  font-size: 300px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  margin-right: 10px;
+  /* Espacio entre la imagen y el titulo */
+}
+
+
+h1 {
+  text-align: left;
+  margin: 0;
+  /* Eliminar margen superior del h1 */
+}
+
+.des-btn {
+  margin-left: auto;
+  /* Alinear el botón "Info" a la derecha */
+  margin-right: 280px;
+  /* Agregar un margen derecho al botón */
+  font-size: large;
+  background-color: #ed2839;
+  font-weight: bold;
+  color: #fff;
+  padding: 5px 19px;
+}
+
+.center-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.entrada {
+  background-color: #513d3f;
+  color: #ffffff;
+}
+
+.entrada h1 {
+  text-align: center;
+  padding-top: 80px;
+  font-size: 340%;
+}
+
+.entrada p {
+  text-align: center;
+  font-size: large;
+  padding-bottom: 45px;
+  font-size: 150%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  flex: 1;
+  text-align: center;
+  align-items: center;
+
+}
+
+.press-btn {
+  margin-left: auto;
+  margin-right: 15px;
+  font-size: large;
+  background-color: #ed2839;
+  font-weight: bold;
+  color: #fff;
+  padding: 5px 19px;
+  border-color: #ed2839;
+}
+
+.prensa {
+  margin-right: 85px;
+  margin-left: 30px;
+
+}
+
+.info {
+  margin-right: 85px;
+  margin-left: 40px;
+
+}
+
+.help {
+  margin-right: 20px;
+
+}
+
+.container p {
+  font-size: large;
+}
+
+.help-btn {
+  margin-left: auto;
+  margin-right: 0px;
+  font-size: large;
+  background-color: #ed2839;
+  font-weight: bold;
+  color: #fff;
+  padding: 5px 19px;
+  border-color: #ed2839;
+}
+
+.formCU {
+  background-color: #ffffff;
+  /* Fondo blanco para el formulario */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  /* Sombra ligera */
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
+
+#enviarBtn {
+  margin-left: auto;
+  margin-right: 0px;
+  font-size: large;
+  background-color: #ed2839;
+  color: #fff;
+  padding: 5px 19px;
+  border-color: #ed2839;
+
+}
+
+/* Estilos para pantallas grandes (desktop) */
+@media (min-width: 992px) {
+
+  /* Ajusta el tamaño de la fuente y el espaciado para pantallas grandes */
+  .entrada h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .entrada p {
+    font-size: 18px;
+  }
+}
+
+/* Estilos para tabletas y dispositivos medianos */
+@media (max-width: 991px) {
+  .col-lg-4 {
+    flex: 0 0 50%;
+    /* Hace que cada columna ocupe el 50% del ancho en tabletas */
+    max-width: 50%;
+  }
+}
+
+/* Estilos para dispositivos pequeños (móviles) */
+@media (max-width: 767px) {
+
+  /* Ajusta el tamaño de la fuente y el espaciado para dispositivos pequeños */
+  .entrada h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .entrada p {
+    font-size: 16px;
+  }
+
+  /* Ajusta el tamaño de los botones en dispositivos pequeños */
+  .press-btn,
+  .help-btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  /* Ajusta el tamaño de los campos de entrada en dispositivos pequeños */
+  #nombre,
+  #correo,
+  #mensaje {
+    font-size: 14px;
+  }
+}
+
+/* Estilos para dispositivos muy pequeños (móviles) */
+@media (max-width: 575px) {
+
+  /* Ajusta el tamaño de la fuente y el espaciado para dispositivos muy pequeños */
+  .entrada h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .entrada p {
+    font-size: 14px;
+  }
+
+  /* Ajusta el tamaño de los botones en dispositivos muy pequeños */
+  .press-btn,
+  .help-btn {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+
+  /* Ajusta el tamaño de los campos de entrada en dispositivos muy pequeños */
+  #nombre,
+  #correo,
+  #mensaje {
+    font-size: 12px;
+  }
+}

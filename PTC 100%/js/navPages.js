@@ -29,7 +29,7 @@ function generateNavPages() {
                     <a href="Tematica.html" class="nav-link"> │ Temática │ </a>
                 </li>
                 <li class="nav-item">
-                <a href="contador.html" class="nav-link"> │ 12/10/2023... │ </a>
+                    <a href="contador.html" class="nav-link"> │ 12/10/2023... │ </a>
                 </li>
             </ul>
         </div>

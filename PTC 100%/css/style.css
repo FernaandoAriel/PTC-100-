@@ -8,6 +8,14 @@ body{
 .section-padding {
     padding: 70px 0;
 }
+.row{
+    padding: 10px 0;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.section-padding {
+    padding: 70px 0;
+}
 img{
     border-radius: 20px;
 }
